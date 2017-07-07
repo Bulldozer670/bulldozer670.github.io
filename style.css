@@ -167,7 +167,9 @@ body {
 	width: 640px;
 	margin: 0 auto;
 }
-#main-image { border-radius: 100%; }
+#main-image {
+	border-radius: 100%;
+}
 #main-title div:first-child { font-size: 48px; font-weight: 400; }
 #main-title div { font-size: 32px; }
 #main-title { 
@@ -201,8 +203,8 @@ body {
 .skills .row.php span:before { width: 88%; }
 .skills .row.mysql span:before { width: 75%; }
 .skills .row.mag span:before { width: 70%; }
-.skills .row.css span:before { width: 60%; }
-.skills .row.html span:before { width: 60%; }
+.skills .row.css span:before { width: 50%; }
+.skills .row.html span:before { width: 50%; }
 .skills .row.jquery span:before { width: 60%; }
 
 .wrapper {
@@ -474,4 +476,46 @@ body {
 	    display: -webkit-flex;
 	    display: flex;		
 	}
+}
+
+@media print {
+   body {
+   	background-color: white;
+   	font-size: 16px;
+   }
+   .block {
+   	display: block;
+   }
+   #main-title {
+   	height: 50px;
+   }
+   .main img {
+   	width: 200px;
+   }
+   .title_wrapper {
+   	background-color: white;
+   }
+   .title > span {
+   	color: black;
+   }
+   .lang, .works, .skype, .linkedin, .footer {
+   	display: none;
+   }
+   .career {
+   	padding-bottom: 200px;
+   }
+   .career .col {
+   	flex: 0 0 300px;
+   	padding: 0px;
+   }
+   .career > .flex {
+   	width: 900px;
+   	display: flex;
+   }
+   .cert-title {
+   	font-size: 16px;
+   }
+   .cert img {
+   	width: 100px;
+   }
 }
