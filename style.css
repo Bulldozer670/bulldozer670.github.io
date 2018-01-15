@@ -29,9 +29,9 @@ body {
 }
 
 .flex > .col {
-	-webkit-flex: 0 0 410px;
-    -ms-flex: 0 0 410px;
-    flex: 0 0 410px;
+	-webkit-flex: 0 0 455px;
+    -ms-flex: 0 0 455px;
+    flex: 0 0 455px;
     margin: 0 10px;
     box-sizing: border-box;
 }
@@ -152,6 +152,7 @@ body {
 }
 
 .skills .title:after { content: '\f00a'; }
+.skills.soft .title:after { content: '\f003'; }
 .info .title:after { content: '\f009'; }
 .education .title:after { content: '\f006'; }
 .career .title:after { content: '\f004'; }
@@ -204,8 +205,15 @@ body {
 .skills .row.mysql span:before { width: 75%; }
 .skills .row.mag span:before { width: 70%; }
 .skills .row.git span:before { width: 65%; }
-.skills .row.linux span:before { width: 60%; }
+.skills .row.linux span:before { width: 55%; }
 .skills .row.xml span:before { width: 50%; }
+
+.skills .row.resp span:before { width: 88%; }
+.skills .row.comm span:before { width: 75%; }
+.skills .row.self span:before { width: 65%; }
+.skills .row.start span:before { width: 60%; }
+.skills .row.team span:before { width: 55%; }
+.skills .row.disc span:before { width: 55%; }
 
 .wrapper {
 	padding: 0px 20px;
@@ -421,6 +429,8 @@ body {
 	-webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    flex-grow: 1;
+    max-width: 1015px;
 }
 
 .cert {
