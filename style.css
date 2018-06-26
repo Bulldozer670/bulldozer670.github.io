@@ -435,7 +435,7 @@ body {
 }
 
 .cert {
-	width: 320px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -459,24 +459,20 @@ body {
 		text-align: center;
 	}
 
-	#main-title { 
-		padding: 20px 0px; 
-	}
-
 	.info .col,
 	.footer .col {
 		width: 220px;
 		margin: 0 auto;
 	}
 	.title { height: 30px; }
-	.skills .row span { width: 280px; }
+	.skills .row span { width: 250px; }
 	.flex > .col:first-child { margin-top: 0; }
 	.flex > .col { margin-top: 10px; }
 
 	.cert.flex {
 		display: -ms-flexbox;
 	    display: -webkit-flex;
-	    display: flex;		
+	    display: flex;
 	}
 }
 
@@ -489,10 +485,18 @@ body {
    	display: block;
    }
    #main-title {
-   	height: 50px;
+   	height: 30px;
    }
    .main img {
-   	width: 200px;
+   	width: 100px;
+   }
+   #main-title {
+   	padding: 0;
+   	font-size: 18px;
+   	height: 105px;
+   }
+   .wrapper {
+   	margin-right: auto;
    }
    .title_wrapper {
    	background-color: white;
@@ -502,9 +506,6 @@ body {
    }
    .lang, .works, .skype, .linkedin, .footer {
    	display: none;
-   }
-   .career {
-   	padding-bottom: 200px;
    }
    .career .col {
    	flex: 0 0 300px;
@@ -520,4 +521,11 @@ body {
    .cert img {
    	width: 100px;
    }
+   .cert-title {
+		margin-top:10px;
+		margin-right: 100px;
+	}
+	.education {
+		display: none;
+	}
 }
