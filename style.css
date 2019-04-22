@@ -210,10 +210,10 @@ body {
 
 .skills .row.resp span:before { width: 88%; }
 .skills .row.comm span:before { width: 75%; }
-.skills .row.self span:before { width: 65%; }
-.skills .row.start span:before { width: 60%; }
-.skills .row.team span:before { width: 55%; }
-.skills .row.disc span:before { width: 55%; }
+.skills .row.self span:before { width: 75%; }
+.skills .row.start span:before { width: 70%; }
+.skills .row.team span:before { width: 85%; }
+.skills .row.disc span:before { width: 70%; }
 
 .wrapper {
 	padding: 0px 20px;
