@@ -308,6 +308,7 @@ body {
 .career .company {
 	font-size: 28px;
 	font-weight: 300;
+	min-height: 150px;
 }
 
 .career .dev { font-size: 24px; }
@@ -481,9 +482,6 @@ body {
    	background-color: white;
    	font-size: 16px;
    }
-   .block {
-   	display: block;
-   }
    #main-title {
    	height: 30px;
    }
@@ -503,6 +501,8 @@ body {
    }
    .title > span {
    	color: black;
+   	font-size:16px;
+   	height: 20px;
    }
    .lang, .works, .skype, .linkedin, .footer {
    	display: none;
@@ -515,17 +515,65 @@ body {
    	width: 900px;
    	display: flex;
    }
-   .cert-title {
-   	font-size: 16px;
-   }
-   .cert img {
-   	width: 100px;
-   }
-   .cert-title {
-		margin-top:10px;
-		margin-right: 100px;
-	}
 	.education {
 		display: none;
+	}
+	.title:after {
+		text-shadow: none;
+	}
+	.email a, .phone a{
+		color: black;
+	}
+	.main {
+		float:left;
+		width: 60%;
+	}
+	.main img {
+		display: block;
+		float:left;
+		height: 200px;
+		width: 200px;
+	}
+	.info, .skills {
+		display:block;
+		padding-top: 50px;
+	}
+	.info {
+		width: 30%;
+		float:left;
+	}
+	.info .title_wrapper {
+		display:none;
+	}
+	.skills {
+		width: 50%;
+		display: block;
+		float:left;
+	}
+	.about {
+		float:left;
+		padding-top: 50px;
+	}
+	.certs {
+		padding-top: 200px;
+		float:left;
+	}
+	.cert-title {
+		font-size: 16px;
+	}
+	.cert img {
+		width: 80px;
+	}
+	.cert-title {
+		margin-top:10px;
+	}
+	.certs .wrapper{
+		float:left;
+	}
+	.education, .career, .works {
+		float:left;
+	}
+	.career {
+		padding-bottom: 30px;
 	}
 }
