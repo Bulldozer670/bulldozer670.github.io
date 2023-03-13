@@ -411,6 +411,12 @@ body {
 	height: 215px;
 }
 
+.works .mini img  {
+	display: block;
+	width: 107.5px;
+	height: 107.5px;
+}
+
 .works .col > a .description:before {
 	font-family: "FortAwesome";
 	content: '\f014';
