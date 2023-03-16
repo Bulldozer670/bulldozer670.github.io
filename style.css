@@ -12,7 +12,6 @@ ul { list-style: none; }
 p { margin: 0 0 .6em; }
 a:hover { text-decoration: underline; }
 a, a span {
-	color: #f26322;
 	text-decoration: none;
 }
 
@@ -82,7 +81,7 @@ body {
 .title_wrapper {
 	padding: 10px;
 	margin-bottom: 20px;
-	background-color: #f26322;
+	background-color: gray;
 }
 
 .title {
@@ -98,14 +97,11 @@ body {
 
 .title:before {
 	content: '';
-	border: 10px solid #ecf0f1;
-	border-radius: 100%;
-	background-color: #f26322;
 	position: absolute;
 	height: 60px;
 	width: 60px;
-	top: -25px;
-	left: 20px;
+	top: -23px;
+	left: 21px;
 }
 
 .title:after {
@@ -124,31 +120,6 @@ body {
 	top: -15px;
 	border-radius: 100%;
 	overflow: hidden;
-	text-shadow: 1px 1px #f24e22,
-				 2px 2px #f24e22,
-				 3px 3px #f24e22,
-				 4px 4px #f24e22,
-				 5px 5px #f24e22,
-				 6px 6px #f24e22,
-				 7px 7px #f24e22,
-				 8px 8px #f24e22,
-				 9px 9px #f24e22,
-				10px 10px #f24e22,
-				11px 11px #f24e22,
-				12px 12px #f24e22,
-				13px 13px #f24e22,
-				14px 14px #f24e22,
-				15px 15px #f24e22,
-				16px 16px #f24e22,
-				17px 17px #f24e22,
-				18px 18px #f24e22,
-				19px 19px #f24e22,
-				20px 20px #f24e22,
-				21px 21px #f24e22,
-				22px 22px #f24e22,
-				23px 23px #f24e22,
-				24px 24px #f24e22,
-				25px 25px #f24e22;
 }
 
 .skills .title:after { content: '\f00a'; }
@@ -181,39 +152,18 @@ body {
 
 .skills .col .row:first-child { margin-top: 0; }
 
-.skills .row { 
-	text-align: right;
-	margin-top: 10px;
-}
-.skills .row span {
+.skills li {
 	display: inline-block;
-	width: 310px;
-	height: 20px;
-	background-color: #bdc3c7;
-	margin-bottom: -5px;
-	margin-left: 10px;
+	margin-right: 20px;
 }
-
-.skills .row span:before {
-	content: '';
-	display: block;
-	height: 100%;
-	background-color: #f26322;
+.skills li:before {
+  content: "\2022";
+  color: black;
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
 }
-
-.skills .row.php span:before { width: 88%; }
-.skills .row.mysql span:before { width: 75%; }
-.skills .row.mag span:before { width: 70%; }
-.skills .row.git span:before { width: 65%; }
-.skills .row.linux span:before { width: 55%; }
-.skills .row.xml span:before { width: 50%; }
-
-.skills .row.resp span:before { width: 88%; }
-.skills .row.comm span:before { width: 75%; }
-.skills .row.self span:before { width: 75%; }
-.skills .row.start span:before { width: 70%; }
-.skills .row.team span:before { width: 85%; }
-.skills .row.disc span:before { width: 70%; }
 
 .wrapper {
 	padding: 0px 20px;
@@ -333,6 +283,7 @@ body {
 }
 
 .career .about > div ul li {
+	min-width: 200px;
 	position: relative;
 	padding-left: 20px;
 	padding-bottom: 5px;
@@ -345,7 +296,6 @@ body {
 	left: 0px;
 	top: 2px;
 	font-size: 18px;
-	color: #2980b9;
 }
 
 .footer {
@@ -496,8 +446,8 @@ body {
    }
    #main-title {
    	padding: 0;
-   	font-size: 18px;
-   	height: 105px;
+   	font-size: 16px;
+   	height: 75px;
    }
    .wrapper {
    	margin-right: auto;
@@ -532,7 +482,7 @@ body {
 	}
 	.main {
 		float:left;
-		width: 60%;
+		width: 51%;
 	}
 	.main img {
 		display: block;
@@ -542,7 +492,7 @@ body {
 	}
 	.info, .skills {
 		display:block;
-		padding-top: 50px;
+		padding-top:25px;
 	}
 	.info {
 		width: 30%;
@@ -558,27 +508,25 @@ body {
 	}
 	.about {
 		float:left;
-		padding-top: 50px;
 	}
 	.certs {
+		width: 50%;
+		padding-left: 25px;
 		float:left;
 	}
 	.cert-title {
 		font-size: 16px;
 	}
 	.cert img {
-		width: 80px;
+		width: 50px;
 	}
 	.cert-title {
 		margin-top:10px;
-	}
-	.certs .wrapper{
-		float:left;
 	}
 	.education, .career, .works {
 		float:left;
 	}
 	.career {
-		padding-bottom: 30px;
+		padding-bottom: 230px;
 	}
 }
