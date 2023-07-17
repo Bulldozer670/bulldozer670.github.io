@@ -455,6 +455,18 @@ body {
    .title_wrapper {
    	background-color: white;
    }
+   .title:after {
+   		content: '' !important;
+	}
+   .title {
+	   	margin: 0px;
+	   	padding: 0px;
+	   	font-size: 24px;
+	   	font-weight: bold;
+   }
+   .title .icon {
+   		display: none;
+   }
    .title > span {
    	color: black;
    	font-size:16px;
@@ -466,6 +478,7 @@ body {
    .career .col {
    	flex: 0 0 300px;
    	padding: 0px;
+   	margin: 0px;
    }
    .career > .flex {
    	width: 1200px;
@@ -510,12 +523,17 @@ body {
 		float:left;
 	}
 	.certs {
-		width: 50%;
 		padding-left: 25px;
 		float:left;
+		margin-bottom:105px;
+	}
+	.certs .flex {
+		justify-content: left;
+		margin: 0px;
 	}
 	.cert-title {
 		font-size: 16px;
+		min-width: 200px;
 	}
 	.cert img {
 		width: 50px;
@@ -527,6 +545,14 @@ body {
 		float:left;
 	}
 	.career {
-		padding-bottom: 230px;
+		margin-bottom: 0px;
+/*		padding-bottom: 230px;*/
+	}
+	.career .col {
+		-webkit-flex: 0 0 260px;
+	    -ms-flex: 0 0 260px;
+	    flex: 0 0 260px;
+	    margin-right: 0px 5px 0px 0px;
+	    padding: 0px 5px 0px 5px;
 	}
 }
