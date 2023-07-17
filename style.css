@@ -132,7 +132,7 @@ body {
 .certs .title:after { content: '\f016'; }
 
 .career .wrapper {
-	max-width: 1150px;
+	max-width: 1200px;
 }
 
 .main {
@@ -239,9 +239,9 @@ body {
 }
 
 .career .col {
-	-webkit-flex: 0 0 400px;
-    -ms-flex: 0 0 400px;
-    flex: 0 0 400px;
+	-webkit-flex: 0 0 300px;
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
     padding: 20px;
     margin-bottom: 20px;
     background-color: white;
@@ -468,7 +468,7 @@ body {
    	padding: 0px;
    }
    .career > .flex {
-   	width: 900px;
+   	width: 1200px;
    	display: flex;
    }
 	.education {
